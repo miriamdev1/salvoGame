@@ -1,0 +1,153 @@
+body {
+     background-color: white;
+     display:flex;
+     align-items:center;
+ }
+ .container{
+ 	justify-content: center;
+ }
+.header{
+	
+  background-image: url();
+  background-size: cover;
+  border-bottom: 0px groove #4b4b4b;
+}
+ h4#playerInfo {
+     margin-top: 50px;
+ }
+
+ .heads {
+     background-color: coral;
+     color: white;
+ }
+ .row {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 30vh;
+ }
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar{
+        background: dimgrey !important;
+        color:#FFFFFF
+}
+.navbar ,navbar-dark{
+            border-radius: 20px !important;
+}
+ .grid {
+     background-color:white;
+ }
+
+ .cells {
+    height:40px;
+    width:40px;
+    border:15px solid black;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+ }
+
+.ship {
+    background-color: dimgrey;
+ }
+
+.ship-hit{
+    background-color:red;
+    text-align: center;
+    opacity:0.6;
+}
+.hit{
+    background-color:red;
+    text-align: center;
+    opacity:0.6;
+}
+
+.addShips-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #d8bf6e;
+    background-image: linear-gradient(to bottom,#D8BF6E 0%,#CDAB44 100%);
+
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border-radius: 3rem;
+    color: #fff;
+}
+.placeSalvo-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #d8bf6e;
+    background-image: linear-gradient(to bottom,#D8BF6E 0%,#CDAB44 100%);
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border-radius: 3rem;
+    color: #fff;
+    position:relative;
+    display:block;
+}
+
+#gameRecordOppTable, #gameRecordSelfTable {
+    opacity: 0.8;
+
+
+}
+.columnTurn {
+    width: 20%;
+}
+
+.columnDamages {
+    width: 80%;
+}
+
+.hitblast {
+    width: 12px;
+}
+.#gameHistory{
+    display:inline-flex;
+
+}
+.col-sm-4 , #selftable{
+    margin-top: -50px;
+    position:relative;
+    display:block;
+}
+.col-sm-4 ,#opptable{
+    margin-top:70px;
+    position:relative;
+    display:block;
+
+}
+#placingShipsBoard {
+    display: none;
+    background: #000000bf;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 1.5em;
+    margin-top: 15px;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #f26f46;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #FF9800;
+}
